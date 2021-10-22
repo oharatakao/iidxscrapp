@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+}
+
+.player {
+  background-image: url('img/default.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.player-timer {
+  position: relative;
+  height: 50vh;
+}
+
+.player-timer-circle {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  height: 220px;
+  width: 220px;
+}
+
+.player-timer-btn {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-54%, -50%);
+}
+
+.timeDisplay {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-weight: 100;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+
+.selection {
+  width: 100%;
+  height: calc(50vh + 20px);
+  background-color: #fff;
+  border-radius: 24px;
+  position: relative;
+  top: -20px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
+.title {
+  padding-top: 20px;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+
+.selection-bar {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: #757575;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 20px;
+}
+
+.title-headline {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.title-description {
+  margin-top: 0;
+  font-size: .8rem;
+}
+
+.soundList {
+  margin-top: 32px;
+}
+
+.soundList-text {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+
+.soundList-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.soundList-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.soundList-title {
+  font-size: .8rem;
+  font-weight: bold;
+  display: block;
+}
+
+.soundList-description {
+  font-size: 0.7rem;
+  display: block;
+  color: #c7c7c7;
+}
