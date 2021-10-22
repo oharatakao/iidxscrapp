@@ -34,10 +34,10 @@ const app = () => {
   const checkPlaying = () => {
     if (song.paused) {
       song.play();
-      playBtn.src = 'svg/stop.svg';
+      playBtn.src = './stop.svg';
     } else {
       song.pause();
-      playBtn.src = 'svg/play.svg';
+      playBtn.src = './play.svg';
     }
   };
 
@@ -45,7 +45,7 @@ const app = () => {
     if (currentTime > currentDuration) {
       song.pause();
       song.currentTime = 0;
-      playBtn.src = 'svg/play.svg';
+      playBtn.src = './play.svg';
     }
   };
 
@@ -71,7 +71,7 @@ const app = () => {
   const setPlayerSong = (songData, imageUrl) => {
     song.src = songData;
     player.style.backgroundImage = `url(${imageUrl})`;
-    playBtn.src = 'svg/play.svg';
+    playBtn.src = './play.svg';
   }
 
   const setPlayerText = (title, description) => {
